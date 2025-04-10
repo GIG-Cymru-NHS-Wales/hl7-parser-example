@@ -1,0 +1,10 @@
+[package]
+name = "hl7-parser-example"
+version = "0.1.0"
+edition = "2024"
+
+[dependencies]
+hl7-parser = { version = "0.3", features = ["serde", "jiff"] }
+serde = { version = "1.0.219" }
+serde_json = { version = "1.0" }
+serde-xml-rs = { version = "0.6.0" }
