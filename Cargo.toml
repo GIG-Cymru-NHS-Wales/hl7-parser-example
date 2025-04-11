@@ -1,7 +1,16 @@
 [package]
 name = "hl7-parser-example"
+authors = ["Joel Parker Henderson <joel.henderson@wales.nhs.uk>"]
 version = "0.1.0"
 edition = "2024"
+description = "This is an example of how to run and use the hl7-parser crate by Kenton Hamaluik <kenton@hamaluik.ca>. The hl7-parser crate parses the structure of HL7v2 messages, but does not validate the correctness of the messages. This example version 0.1.0 is experimental work in progress, and is not ready for use in production, nor any real world medical context, nor with any real patient data. Use at your own risk."
+documentation = "https://docs.rs/hl7-parser-example"
+repository = "https://github.com/gig-cymru-nhs-wales/hl7-parser-example"
+readme = "README.md"
+license = "Apache-2.0"
+keywords = ["hl7", "health", "parse", "pipehat", "medical"]
+categories = ["parser-implementations", "science"]
+
 
 [dependencies]
 hl7-parser = { version = "0.3", features = ["serde", "jiff"] }
